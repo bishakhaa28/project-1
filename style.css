@@ -7,3 +7,13 @@
     width: 180px;
     height: 80px;
 }
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+.col img{
+  width: 225px;
+  height: 224px;
+  margin-top: 10px;
+  border-right: 1px solid grey;
+}

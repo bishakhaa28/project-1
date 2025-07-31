@@ -1,74 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
+    integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
 </head>
+
 <body>
 
- <nav class="container navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="container navbar navbar-expand-lg navbar-light bg-white">
     <div class="logo">
-    <img src="./images/logo.png" alt="">
+      <img src="./images/logo.png" alt="">
     </div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item active mr-4">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown mr-4">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          About
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown  mr-4">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          Courses
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item mr-4">
-        <a class="nav-link" href="#">News and Notices</a>
-      </li>
-       <li class="nav-item mr-4">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-       <li class="nav-item mr-4">
-        <a class="nav-link" href="#">FAQ</a>
-      </li>
-       <li class="nav-item mr-4">
-        <a class="nav-link" href="#">Content</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-primary my-2 my-sm-0 rounded-pill" type="submit">Apply Online
-              <i class="fa-solid fa-circle-arrow-right"></i>
-      </button>
-    </form>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active mr-4">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown  mr-4">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Why Naat?</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Who we are?</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Mission and Vision</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Message from the CEO</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Success Story</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown  mr-4">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">City and Guild Courses</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Consulting Services</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">EASA 66</a>
+          </div>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">News and Notices</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">Content</a>
+        </li>
+      </ul>
+        <button class="btn btn-outline-primary my-2 my-sm-0 rounded-pill" type="submit">Apply Online
+          <i class="fa-solid fa-circle-arrow-right"></i>
+        </button>
+    </div>
+  </nav>
+
+
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner mb-5">
+      <div class="carousel-item active">
+        <img src="https://www.naat147.com/public/storage/website/image/slider/img1-1615182965.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.naat147.com/public/storage/website/image/slider/img2-1615182946.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.naat147.com/public/storage/website/image/slider/img3-1615182920.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
   </div>
-</nav>
- 
+<div class="bg-light">
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="d-flex">
+          <span class="text-primary mr-3">______</span>
+          <h2 class="text-primary">Our Courses</h2>
+        </div>
+        <p class="lead">Our Expertise That People Trust</p>
+      </div>
+      <div class="col">
+        <p class="">We presented you this wonderful project.</p>
+      </div>
+    </div>
 
-<script src="./bootstrap-4.6.2-dist/js/jquery.slim.min.js"></script>
-<script src="./bootstrap-4.6.2-dist/js/popper.min.js"></script>
-<script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col d-flex bg-white shadow p-3 mb-5 rounded">
+          <img src="https://www.naat147.com/public/storage/website/client/qOsxDhcrcIuEbKNVTCpXLuPDP9CsmhgZdIcXz4wS.jpeg"
+            alt="">
+          <div class="ml-3">
+            <h5 class="mt-3">Diploma in Air Cabin Crew</h5>
+            <p class="border-bottom mb-5">This course is ideal for young professionals looking to get a head start in the profession, introducing
+              the skills and responsibilities expected by the world’s leading airlines.</p>
+              <button class="btn btn-outline-primary bg-primary text-white my-2 my-sm-0 item-center rounded-pill" type="submit">Read More
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col d-flex bg-white shadow p-3 mb-5 rounded">
+          <img src="https://www.naat147.com/public/storage/website/client/7b4duEekfSjTMvtX7E7H7liNafRjG9CQioOBLDU5.jpeg"
+            alt="">
+          <div class="ml-3">
+            <h5 class="mt-3">Diploma in Air Cabin Crew</h5>
+            <p class="border-bottom mb-5">This course is ideal for young professionals looking to get a head start in the profession, introducing
+              the skills and responsibilities expected by the world’s leading airlines.</p>
+              <button class="btn btn-outline-primary bg-primary text-white my-2 my-sm-0 item-center rounded-pill" type="submit">Read More
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col d-flex bg-white shadow p-3 mb-5 rounded">
+          <img src="https://www.naat147.com/public/storage/website/client/daRArGxE1QLzduesk03JBBdEvFZRR5E0hhfQvvuM.png"
+            alt="">
+          <div class="ml-3">
+            <h5 class="mt-3">Diploma in Air Cabin Crew</h5>
+            <p class="border-bottom mb-5">This course is ideal for young professionals looking to get a head start in the profession, introducing
+              the skills and responsibilities expected by the world’s leading airlines.</p>
+              <button class="btn btn-outline-primary bg-primary text-white my-2 my-sm-0 item-center rounded-pill" type="submit">Read More
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col d-flex bg-white shadow p-3 mb-5 rounded">
+          <img src="https://www.naat147.com/public/storage/website/client/FCFk9lAPBM9bwDZ47KJof4kiuiTUBAfFeFTrXb6I.png"
+            alt="">
+          <div class="ml-3">
+            <h5 class="mt-3">Diploma in Air Cabin Crew</h5>
+            <p class="border-bottom mb-5">This course is ideal for young professionals looking to get a head start in the profession, introducing
+              the skills and responsibilities expected by the world’s leading airlines.</p>
+              <button class="btn btn-outline-primary bg-primary text-white my-2 my-sm-0 item-center rounded-pill" type="submit">Read More
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+    <script src="./bootstrap-4.6.2-dist/js/jquery.slim.min.js"></script>
+    <script src="./bootstrap-4.6.2-dist/js/popper.min.js"></script>
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
