@@ -17,3 +17,8 @@
   margin-top: 10px;
   border-right: 1px solid grey;
 }
+.item img{
+  width: 254px;
+  height: 250px;
+  object-fit: cover;
+}
